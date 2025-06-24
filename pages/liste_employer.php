@@ -37,6 +37,7 @@ $employees = getEmployeesOfDepartment( $dept_no);
         <p>Aucun employé trouvé pour ce département.</p>
     <?php endif; ?>
 
-    <p><a href="index.php">⬅ Retour à la liste des départements</a></p>
+    <p><a href="index.php">⬅ Retour à la liste</a></p>
+    
 </body>
 </html>
