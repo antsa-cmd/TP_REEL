@@ -21,7 +21,7 @@ $employees = getEmployeesOfDepartment( $dept_no);
     <?php if (!empty($employees)): ?>
     <table border="1" cellpadding="8">
         <tr>
-            <th>ID</th>
+            <th>ID</th>x
             <th>Nom</th>
             <th>Date d'embauche</th>
         </tr>
