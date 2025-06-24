@@ -1,3 +1,3 @@
 <?php
 header("Location:pages/index.php");
-?>kaka
+?>kaka bwebweb
