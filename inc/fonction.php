@@ -54,3 +54,21 @@ function getDepartmentName($dept_no) {
     $row = mysqli_fetch_assoc($result);
     return $row['dept_name'] ?? 'Département inconnu';
 }
+
+function getDepartment($dept_no) {
+    $db = dbconnect();
+
+    $sql = sprintf("
+        SELECT dept_name
+        FROM departments
+        WHERE dept_no = '%s'
+    ", mysqli_real_escape_string($db, $dept_no));
+
+    $result = mysqli_query($db, $sql);
+    if (!$result) {
+        die("Erreur SQL : " . mysqli_error($db));
+    }
+
+    $row = mysqli_fetch_assoc($result);
+    return $row['dept_name'] ?? 'Département inconnu';
+}
