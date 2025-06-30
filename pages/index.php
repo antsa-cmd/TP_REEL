@@ -15,7 +15,7 @@ $departments = getDepartmentsWithManager();
     <table border="1" cellpadding="8">
         <tr>
             <th>Code</th>
-            <th>Nom</th>
+            <th>Nom</th>gggg
             <th>Manager actuel</th>
         </tr>
         <?php foreach ($departments as $row): ?>
