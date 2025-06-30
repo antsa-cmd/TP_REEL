@@ -27,5 +27,5 @@ $departments = getDepartmentsWithManager();
         <?php endforeach; ?>
     </table>
     <p><a href="recherche.php">Rechercher une  personne </a></p>
-</body>
+</body>jijijii
 </html>
