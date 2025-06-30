@@ -7,6 +7,8 @@ $departments = getDepartmentsWithManager();
 <html>
 <head>
     <title>Départements</title>
+    <link rel="stylesheet" href="../asset/bootstrap.min.css">
+    <script src="../asset/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <h1>Liste des départements</h1>
@@ -24,5 +26,6 @@ $departments = getDepartmentsWithManager();
         </tr>
         <?php endforeach; ?>
     </table>
+    <p><a href="recherche.php">Rechercher une  personne </a></p>
 </body>
 </html>

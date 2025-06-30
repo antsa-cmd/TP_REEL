@@ -21,7 +21,7 @@ $employees = getEmployeesOfDepartment( $dept_no);
     <?php if (!empty($employees)): ?>
     <table border="1" cellpadding="8">
         <tr>
-            <th>ID</th>x
+            <th>ID</th>
             <th>Nom</th>
             <th>Date d'embauche</th>
         </tr>
@@ -37,7 +37,9 @@ $employees = getEmployeesOfDepartment( $dept_no);
         <p>Aucun employé trouvé pour ce département.</p>
     <?php endif; ?>
 
-    <p><a href="index.php">⬅ Retour à la liste</a></p>
+    <p><a href="index.php">Retour à la liste</a></p>
+    <p><a href="recherche.php">Rechercher une personne</a></p>
+
     
 </body>
 </html>
