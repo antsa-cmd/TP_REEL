@@ -39,6 +39,7 @@ $employees = getEmployeesOfDepartment( $dept_no);
 
     <p><a href="index.php">Retour à la liste</a></p>
     <p><a href="recherche.php">Rechercher une personne</a></p>
+    <p><a href="salaires.php">salaire des employé</a></p>
 
     
 </body>
