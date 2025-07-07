@@ -22,6 +22,29 @@ $result = mysqli_query($conn, $sql);
     <title>Salaires</title>
     <link href="../asset/bootstrap.min.css" rel="stylesheet">
 </head>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Entreprise</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.php">🏠 Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recherche.php">🔍 Recherche</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="salaires.php">💰 Historique de salaire</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 <body>
 <div class="container mt-5">
     <h2 class="text-center mb-4">Liste des Salaires</h2>
