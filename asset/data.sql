@@ -96,3 +96,12 @@ INSERT INTO dept_manager VALUES
 (111784,'d009','1988-10-17','1992-09-08'),
 (111877,'d009','1992-09-08','1996-01-03'),
 (111939,'d009','1996-01-03','9999-01-01');
+
+
+
+/*CREATE VIEW*/
+
+SELECT * 
+FROM employees E join dept_manager
+ON emp_no join departments
+on dept_no 

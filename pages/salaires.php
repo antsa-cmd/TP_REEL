@@ -2,7 +2,7 @@
 include("../inc/connexion.php");
 $conn = dbconnect();
 
-$limit = 20;
+$limit = 20; 
 $page = isset($_GET['page']) ? max((int)$_GET['page'], 1) : 1;
 $offset = ($page - 1) * $limit;
 
@@ -20,11 +20,12 @@ $result = mysqli_query($conn, $sql);
 <head>
     <meta charset="UTF-8">
     <title>Salaires</title>
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="../asset/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container mt-5">
     <h2 class="text-center mb-4">Liste des Salaires</h2>
+    <p><a href="index.php">retour a la liste</a></p>
 
     <table class="table table-bordered table-striped">
         <thead class="table-dark">
@@ -87,6 +88,6 @@ $result = mysqli_query($conn, $sql);
     </nav>
 </div>
 
-<script src="bootstrap.bundle.min.js"></script>
+<script src="../asset/bootstrap.bundle.min.js"></script>
 </body>
 </html>
