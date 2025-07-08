@@ -55,3 +55,8 @@ function getDepartmentName($dept_no) {
     return $row['dept_name'] ?? 'Département inconnu';
 }
 
+function ajout_departement($info){
+    $sql_insert = "INSERT INTO departments SET dept_no = '%s', dept_name = '%s'";
+    $sql = sprintf($sql_insert, $info['dept_no'] ,$info['dept_name'] );
+    mysqli_query(dbconnect(), $sql);
+}

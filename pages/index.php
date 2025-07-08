@@ -31,6 +31,9 @@ $departments = getDepartmentsWithManager();
                     <li class="nav-item">
                         <a class="nav-link" href="salaires.php">💰 Historique de salaire</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ajout-departement.php">Ajouter un département</a>
+                    </li>
                 </ul>
             </div>
         </div>

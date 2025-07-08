@@ -48,7 +48,6 @@ $result = mysqli_query($conn, $sql);
 <body>
 <div class="container mt-5">
     <h2 class="text-center mb-4">Liste des Salaires</h2>
-    <p><a href="index.php">retour a la liste</a></p>
 
     <table class="table table-bordered table-striped">
         <thead class="table-dark">
